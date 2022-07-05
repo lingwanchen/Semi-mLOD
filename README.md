@@ -9,6 +9,6 @@ main-funs-mKM.R: main function for the proposed methods, including multivaritet 
 
 main-funs-LM-mKM.R: main function for the proposed method using marginal approximation approach and MCMC alogrithm where type of outcome is continuous (p>3).
 
-R-examples.R: five examples are provided to illustrate the proposed methods along with the sample datasets (p=2,3,4)
+R-examples.R: five examples are provided to illustrate the proposed methods along with the sample datasets (p=2, 3, 4)
 
 Note: User also needs seven required packages ("rootSolve", "quantreg" and "SparseM", "survival", "aftgee", "Rcpp", "RcppParallel) from R before using our method
