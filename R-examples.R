@@ -3,7 +3,7 @@
 ### 2. p=2 and type of outcome is binary
 ### 3. p=3 and type of outcome is continuous 
 ### 4. p=3 and type of outcome is count 
-### 5. p=4 and type of outcome is continuous. Use marginal approximation approach and MCMC
+### 5. p=4 and type of outcome is continuous. Use marginal approximation approach and the Monte Carlo (MC) integration
 
 
 library(rootSolve)
@@ -19,7 +19,7 @@ source("reqfuns.r")   ## required functions
 source("main-func-mKM.r") ## main function of our proposed methods, using multivaritet KM approach. See details in "main-func-mKM.R"
 source("main-func-LM-marg-mc.r") ## main function of the margnial approximation approach and MCMC. See details in "main-func-LM-marg-mc.R"
 
-sourceCpp("aft_lod.cpp") ## required functions for MCMC 
+sourceCpp("aft_lod.cpp") ## required functions for the MC integration
 
 
 ##########################################################################################
