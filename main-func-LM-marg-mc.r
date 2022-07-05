@@ -1,6 +1,6 @@
 # This function works for the continuous outcome and p>2. For p<3, use main.func.mKM function instead.
 # The marginal approach Wwith rank-based with Gehan weight for alpha estimation is used to estimate the eta (the residual term distribution).
-# The MCMC algorithm was implemented in the estimation of theta.
+# The Monte Carlo (MC) integration was implemented in the estimation of theta.
 
 main.func.LM.marg.mc<-function(Y, Y.cov, Z, lod, aft.cov, trans, seedmc, contl){
   # Y: outcome of interest, cts type
@@ -9,7 +9,7 @@ main.func.LM.marg.mc<-function(Y, Y.cov, Z, lod, aft.cov, trans, seedmc, contl){
   # lod: LOD values for Z
   # aft.cov: covariates for AFT model adjustment
   # transforz ("ne" or "exp-ne"): transform function h(t)=z: -t "ne" or exp(-t) "exp-ne"
-  # seedmc: seed for MCMC
+  # seedmc: seed for the MC integration
   ##  NOTE: this function works for p>2
   
   pp<-dim(Z)[2]
