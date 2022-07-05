@@ -7,7 +7,7 @@ aft_lod.cpp: required function for the MC integration
 
 main-funs-mKM.R: main function for the proposed methods, including multivaritet KM estimator and marginal approximation approach (p<4). 
 
-main-funs-LM-mKM.R: main function for the proposed method using marginal approximation approach and MCMC alogrithm where type of outcome is continuous (p>3).
+main-funs-LM-mKM.R: main function for the proposed method using marginal approximation approach and the MC integration where type of outcome is continuous (p>3).
 
 R-examples.R: five examples are provided to illustrate the proposed methods along with the sample datasets (p=2, 3, 4)
 
